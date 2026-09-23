@@ -1,0 +1,633 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Courses | Senay Future Academy</title>
+
+    <meta name="description"
+        content="Explore courses at Senay Future Academy and develop knowledge and skills for your future.">
+
+    <!-- Shared CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+    <!-- Logo -->
+    <div class="logo">
+        
+            <img src="images/profile.png" alt="Senay Profile">
+            <h2>Senay Future Academy</h2>
+        
+    </div>
+
+
+    <!-- Hamburger Button -->
+    <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false">
+
+        ☰
+
+    </button>
+
+
+    <!-- Navigation -->
+    <nav
+        class="navbar"
+        id="navbar"
+        aria-label="Main Navigation">
+
+        <ul>
+
+            <li>
+                <a href="index.html" class="active">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="about.html">
+                    About
+                </a>
+            </li>
+
+            <li>
+                <a href="courses.html">
+                    Courses
+                </a>
+            </li>
+
+            <li>
+                <a href="services.html">
+                    Services
+                </a>
+            </li>
+
+            <li>
+                <a href="Notes.html">
+                    Notes
+                </a>
+            </li>
+
+            <li>
+                <a href="Testes.html">
+                    Tests
+                </a>
+            </li>
+
+            <li>
+                <a href="contact.html">
+                    Contact
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- Dark Mode -->
+    <butto
+        id="themeToggle"
+        aria-label="Toggle dark mode"
+        title="Toggle dark mode">
+
+        🌙
+
+    </button>
+
+</header>
+
+
+    <!-- ================= COURSES HERO ================= -->
+
+    <main>
+
+        <section class="courses-hero">
+
+            <div class="courses-hero-content">
+
+                <span class="hero-tag">
+                    Expand Your Knowledge
+                </span>
+
+                <h1>
+                    Explore Our
+                    <span>Courses</span>
+                </h1>
+
+                <p>
+                    Discover useful subjects and skills designed
+                    to help you learn, practice, and prepare for
+                    your academic and professional future.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SEARCH ================= -->
+
+        <section class="course-search">
+
+            <div class="search-container">
+
+                <h2>Find Your Course</h2>
+
+                <p>
+                    Search for a subject or choose a category below.
+                </p>
+
+                <div class="search-box">
+
+                    <input
+                        type="text"
+                        id="notesSearch"
+                        placeholder="Search courses..."
+                        aria-label="Search study notes">
+
+                        
+                    <button type="button" id="searchButton">
+                        🔍 Search
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CATEGORIES ================= -->
+
+        <section class="categories-section">
+
+            <div class="section-heading">
+
+                <span>Browse Subjects</span>
+
+                <h2>Course Categories</h2>
+
+                <p>
+                    Choose a category to discover available
+                    learning resources.
+                </p>
+
+            </div>
+
+
+            <div class="category-buttons">
+
+                <button class="category-btn active"
+                        data-category="all">
+                    All
+                </button>
+
+                <button class="category-btn"
+                        data-category="global">
+                    Global Studies
+                </button>
+
+                <button class="category-btn"
+                        data-category="civic">
+                    Civic Education
+                </button>
+
+                <button class="category-btn"
+                        data-category="geography">
+                    Geography
+                </button>
+
+                <button class="category-btn"
+                        data-category="psychology">
+                    Psychology
+                </button>
+
+                <button class="category-btn"
+                        data-category="programming">
+                    C++
+                </button>
+
+                <button class="category-btn"
+                        data-category="mathematics">
+                    Mathematics
+                </button>
+
+                <button class="category-btn"
+                        data-category="physics">
+                    Physics
+                </button>
+
+                <button class="category-btn"
+                        data-category="logic">
+                    Logic
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= COURSE CARDS ================= -->
+
+        <section class="courses-list">
+
+            <div class="section-heading">
+
+                <span>Start Learning</span>
+
+                <h2>Available Courses</h2>
+
+                <p>
+                    Select a course and start building your knowledge.
+                </p>
+
+            </div>
+
+
+            <div class="course-grid">
+
+
+                <!-- Global Studies -->
+
+                <article class="course-card"
+                         data-category="global"
+                         data-title="Global Studies">
+
+                    <div class="course-card-icon">
+                        🌍
+                    </div>
+
+                    <span class="course-level">
+                        Beginner
+                    </span>
+
+                    <h3>Global Studies</h3>
+
+                    <p>
+                        Explore global issues, international
+                        relationships, cultures, and important
+                        developments around the world.
+                    </p>
+
+                    <div class="course-info">
+                        <span>📖 Lessons</span>
+                        <span>📝 Practice</span>
+                    </div>
+
+                    <a href="#" class="course-link">
+                        View Course →
+                    </a>
+
+                </article>
+
+
+                <!-- Civic -->
+
+                <article class="course-card"
+                         data-category="civic"
+                         data-title="Civic Education">
+
+                    <div class="course-card-icon">
+                        🏛️
+                    </div>
+
+                    <span class="course-level">
+                        Beginner
+                    </span>
+
+                    <h3>Civic Education</h3>
+
+                    <p>
+                        Learn about citizenship, rights,
+                        responsibilities, democracy, and
+                        participation in society.
+                    </p>
+
+                    <div class="course-info">
+                        <span>📖 Lessons</span>
+                        <span>📝 Practice</span>
+                    </div>
+
+                    <a href="#" class="course-link">
+                        View Course →
+                    </a>
+
+                </article>
+
+
+                <!-- Geography -->
+
+                <article class="course-card"
+                         data-category="geography"
+                         data-title="Geography">
+
+                    <div class="course-card-icon">
+                        🗺️
+                    </div>
+
+                    <span class="course-level">
+                        Beginner
+                    </span>
+
+                    <h3>Geography</h3>
+
+                    <p>
+                        Discover physical geography, human
+                        geography, environments, maps, and
+                        the world around us.
+                    </p>
+
+                    <div class="course-info">
+                        <span>📖 Lessons</span>
+                        <span>📝 Practice</span>
+                    </div>
+
+                    <a href="#" class="course-link">
+                        View Course →
+                    </a>
+
+                </article>
+
+
+                <!-- Psychology -->
+
+                <article class="course-card"
+                         data-category="psychology"
+                         data-title="Psychology">
+
+                    <div class="course-card-icon">
+                        🧠
+                    </div>
+
+                    <span class="course-level">
+                        Beginner
+                    </span>
+
+                    <h3>Psychology</h3>
+
+                    <p>
+                        Understand human behavior, thinking,
+                        learning, emotions, and basic
+                        psychological concepts.
+                    </p>
+
+                    <div class="course-info">
+                        <span>📖 Lessons</span>
+                        <span>📝 Practice</span>
+                    </div>
+
+                    <a href="#" class="course-link">
+                        View Course →
+                    </a>
+
+                </article>
+
+
+                <!-- C++ -->
+
+                <article class="course-card"
+                         data-category="programming"
+                         data-title="C++ Programming">
+
+                    <div class="course-card-icon">
+                        💻
+                    </div>
+
+                    <span class="course-level">
+                        Beginner
+                    </span>
+
+                    <h3>C++ Programming</h3>
+
+                    <p>
+                        Learn programming fundamentals,
+                        variables, conditions, loops,
+                        functions, and problem solving.
+                    </p>
+
+                    <div class="course-info">
+                        <span>📖 Lessons</span>
+                        <span>💻 Coding</span>
+                    </div>
+
+                    <a href="#" class="course-link">
+                        View Course →
+                    </a>
+
+                </article>
+
+
+                <!-- Mathematics -->
+
+                <article class="course-card"
+                         data-category="mathematics"
+                         data-title="Mathematics">
+
+                    <div class="course-card-icon">
+                        🧮
+                    </div>
+
+                    <span class="course-level">
+                        Beginner
+                    </span>
+
+                    <h3>Mathematics</h3>
+
+                    <p>
+                        Strengthen your mathematical thinking
+                        through concepts, examples, exercises,
+                        and problem-solving practice.
+                    </p>
+
+                    <div class="course-info">
+                        <span>📖 Lessons</span>
+                        <span>📝 Exercises</span>
+                    </div>
+
+                    <a href="#" class="course-link">
+                        View Course →
+                    </a>
+
+                </article>
+
+
+                <!-- Physics -->
+
+                <article class="course-card"
+                         data-category="physics"
+                         data-title="Physics">
+
+                    <div class="course-card-icon">
+                        ⚛️
+                    </div>
+
+                    <span class="course-level">
+                        Beginner
+                    </span>
+
+                    <h3>Physics</h3>
+
+                    <p>
+                        Explore motion, forces, energy,
+                        electricity, waves, and fundamental
+                        concepts of physics.
+                    </p>
+
+                    <div class="course-info">
+                        <span>📖 Lessons</span>
+                        <span>🧪 Examples</span>
+                    </div>
+
+                    <a href="#" class="course-link">
+                        View Course →
+                    </a>
+
+                </article>
+
+
+                <!-- Logic -->
+
+                <article class="course-card"
+                         data-category="logic"
+                         data-title="Logic">
+
+                    <div class="course-card-icon">
+                        🧩
+                    </div>
+
+                    <span class="course-level">
+                        Beginner
+                    </span>
+
+                    <h3>Logic</h3>
+
+                    <p>
+                        Develop critical thinking, reasoning,
+                        problem-solving, and logical decision-making
+                        skills.
+                    </p>
+
+                    <div class="course-info">
+                        <span>📖 Lessons</span>
+                        <span>🧠 Problems</span>
+                    </div>
+
+                    <a href="#" class="course-link">
+                        View Course →
+                    </a>
+
+                </article>
+
+
+            </div>
+
+
+            <!-- No Results -->
+
+            <div id="noCourses"
+                 class="no-courses"
+                 style="display: none;">
+
+                <div>
+                    🔍
+                </div>
+
+                <h3>No courses found</h3>
+
+                <p>
+                    Try another search or select a different category.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CTA ================= -->
+
+        <section class="cta">
+
+            <h2>
+                Keep Learning. Keep Growing.
+            </h2>
+
+            <p>
+                Choose a course today and take another step
+                toward your future.
+            </p>
+
+            <a href="contact.html" class="btn">
+                Get Started
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+
+                <h2>Senay Future Academy</h2>
+
+                <p>
+                    Learn smarter. Build your future.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="Notes.html">Notes</a>
+                <a href="tests.html">Tests</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                &copy; 2026 Senay Future Academy.
+                All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Shared JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+```
